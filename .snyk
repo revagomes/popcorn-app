@@ -1,0 +1,66 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - popcornflix > mime:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:mime:20170907'
+        path: popcornflix > mime
+    - request > mime:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:mime:20170907'
+        path: request > mime
+    - express > accepts > mime:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:mime:20170907'
+        path: express > accepts > mime
+    - express > send > mime:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:mime:20170907'
+        path: express > send > mime
+    - express > type-is > mime:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:mime:20170907'
+        path: express > type-is > mime
+    - express > serve-static > send > mime:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:mime:20170907'
+        path: express > serve-static > send > mime
+    - popcornflix > read-torrent > request > mime:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:mime:20170907'
+        path: popcornflix > read-torrent > request > mime
+    - popcornflix > read-torrent > request > form-data > mime:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:mime:20170907'
+        path: popcornflix > read-torrent > request > form-data > mime
+  'npm:negotiator:20160616':
+    - express > accepts > negotiator:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:negotiator:20160616'
+        path: express > accepts > negotiator
+  'npm:qs:20140806-1':
+    - express > qs:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:qs:20140806-1'
+        path: express > qs
+    - request > qs:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:qs:20140806-1'
+        path: request > qs
+    - popcornflix > read-torrent > request > qs:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:qs:20140806-1'
+        path: popcornflix > read-torrent > request > qs
+  'npm:request:20160119':
+    - popcornflix > read-torrent > request:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:request:20160119'
+        path: popcornflix > read-torrent > request
+  'npm:ws:20160920':
+    - socket.io > engine.io > ws:
+        patched: '2024-05-27T16:15:22.142Z'
+        id: 'npm:ws:20160920'
+        path: socket.io > engine.io > ws
