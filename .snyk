@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - popcornflix > read-torrent > request > mime:
+        patched: '2024-09-17T04:46:10.517Z'
+        id: 'npm:mime:20170907'
+        path: popcornflix > read-torrent > request > mime
+    - popcornflix > read-torrent > request > form-data > mime:
+        patched: '2024-09-17T04:46:10.517Z'
+        id: 'npm:mime:20170907'
+        path: popcornflix > read-torrent > request > form-data > mime
+  'npm:qs:20140806-1':
+    - popcornflix > read-torrent > request > qs:
+        patched: '2024-09-17T04:46:10.517Z'
+        id: 'npm:qs:20140806-1'
+        path: popcornflix > read-torrent > request > qs
+  'npm:request:20160119':
+    - popcornflix > read-torrent > request:
+        patched: '2024-09-17T04:46:10.517Z'
+        id: 'npm:request:20160119'
+        path: popcornflix > read-torrent > request
